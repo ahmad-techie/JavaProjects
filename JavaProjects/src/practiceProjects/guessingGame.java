@@ -11,24 +11,21 @@ public class guessingGame {
 			int guessLimit = 3;
 			boolean limitReached = false;
 
-			
-
 			while (!winner.equalsIgnoreCase(answer) && !limitReached) {
-				if(counter<guessLimit) {
+				if (counter < guessLimit) {
 					System.out.println("Which country won the 2010 Football World Cup? \nYou are limited to 3 answers");
 					answer = userInput.next();
 					counter++;
 				}
-				
+
 				else {
 					limitReached = true;
 				}
 			}
 
-			if(limitReached) {
+			if (limitReached) {
 				System.out.println("You lost! You reached your limit");
-			}
-			else {
+			} else {
 				System.out.println("You won!");
 			}
 		}
