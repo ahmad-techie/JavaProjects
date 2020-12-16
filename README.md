@@ -1,8 +1,6 @@
 # Java Projects:
 
-A collection of Java programming challenges I've attempted.
-
-## Challenges I've attempted:
+## A collection of Java programming challenges I've attempted.
 
 ### Basic Calculator
 In this challenge, I have attempted to build a simple calculator that lets the user enter two numeric values on the console. 
