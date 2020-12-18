@@ -14,3 +14,7 @@ If true, if finds the odd numbers between two numbers and displays it in the con
 ### Guissing Game
 In this challenge, I have attempted to build an application that asks the user a question and lets the user three attempts. 
 If the user finds the answer, it displays a success message, otherwise it displays in the console that the user run out of attempts. 
+
+### Power Function
+In this challenge, I have attempted to build a simple Java program that takes to numbers from the user and returns the first number to the power of the second number. 
+
