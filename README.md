@@ -18,3 +18,5 @@ If the user finds the answer, it displays a success message, otherwise it displa
 ### Power Function
 In this challenge, I have attempted to build a simple Java program that takes to numbers from the user and returns the first number to the power of the second number. 
 
+### ReverseString Function
+In this challenge, I coded a simple program that takes a string and outputs its reverese.
