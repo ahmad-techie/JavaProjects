@@ -20,3 +20,6 @@ In this challenge, I have attempted to build a simple Java program that takes to
 
 ### ReverseString Function
 In this challenge, I coded a simple program that takes a string and outputs its reverese.
+
+### Check Prime Number Function
+In this challenge, I wrote a function that takes a number and lets the user know whether the number is a prime number or not. 
