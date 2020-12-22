@@ -23,3 +23,6 @@ In this challenge, I coded a simple program that takes a string and outputs its 
 
 ### Check Prime Number Function
 In this challenge, I wrote a function that takes a number and lets the user know whether the number is a prime number or not. 
+
+### Simple Mortgage Calculator
+In this challenge, I wrote a program that calculates the monthly morgage payment. 
