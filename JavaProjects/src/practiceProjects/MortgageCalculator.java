@@ -13,26 +13,26 @@ public class MortgageCalculator {
 	}
 	
 	static void mortgageCalculator() {
-		Scanner userInput = new Scanner(System.in);
-		
-		System.out.println("How much is the principle amount?");
-		int principleAmount = userInput.nextInt();
-		
-		System.out.println("How long is the term in years?");
-		byte term = userInput.nextByte();
-		
-		System.out.println("How much is the interest rate?");
-		double interestRate = userInput.nextFloat() / 100;
-		
-		byte numberOfMonths = 12;
-		int n = term * numberOfMonths;
-		double r = interestRate/numberOfMonths;
-		
-		double mortgage = 100000 
-				*(r*Math.pow(1+r, n))
-				/(Math.pow(1+r, n)-1);
-		String monthlyPayment = NumberFormat.getCurrencyInstance().format(mortgage);
-		System.out.println("Your monthy payment is: " + monthlyPayment);
+		try (Scanner userInput = new Scanner(System.in)) {
+			System.out.println("How much is the principle amount?");
+			int principleAmount = userInput.nextInt();
+			
+			System.out.println("How long is the term in years?");
+			byte term = userInput.nextByte();
+			
+			System.out.println("How much is the interest rate?");
+			double interestRate = userInput.nextFloat() / 100;
+			
+			byte numberOfMonths = 12;
+			int n = term * numberOfMonths;
+			double r = interestRate/numberOfMonths;
+			
+			double mortgage = principleAmount 
+					*(r*Math.pow(1+r, n))
+					/(Math.pow(1+r, n)-1);
+			String monthlyPayment = NumberFormat.getCurrencyInstance().format(mortgage);
+			System.out.println("Your monthy payment is: " + monthlyPayment);
+		}
 	}
 
 }

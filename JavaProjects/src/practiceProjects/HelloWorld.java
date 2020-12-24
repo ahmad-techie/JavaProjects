@@ -1,4 +1,3 @@
-package practiceProjects;
 
 public class HelloWorld {
 

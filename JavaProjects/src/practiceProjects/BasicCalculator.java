@@ -1,5 +1,3 @@
-package practiceProjects;
-
 import java.util.Scanner;
 
 public class BasicCalculator {
