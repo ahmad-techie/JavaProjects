@@ -25,4 +25,4 @@ In this challenge, I coded a simple program that takes a string and outputs its 
 In this challenge, I wrote a function that takes a number and lets the user know whether the number is a prime number or not. 
 
 ### Simple Mortgage Calculator
-In this challenge, I wrote a program that calculates the monthly morgage payment. 
+In this challenge, I wrote a program that calculates the monthly morgage payment. It takes user input and makes the calculation based on this formula: M = P [ I ( 1 + I )^N ] / [ ( 1 + I )^N – 1 ]. 
