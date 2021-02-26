@@ -1,6 +1,10 @@
 import java.text.NumberFormat;
 import java.util.Scanner;
-
+/**
+ * This basic program calculates the mortgage on yearly basis. 
+ * @author Ahmad
+ *
+ */
 
 //Mortgage calculator formula: Payment = P x (r / n) x (1 + r / n)^n(t)] / (1 + r / n)^n(t) - 1
 
